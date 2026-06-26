@@ -1,16 +1,20 @@
-## Hi there 👋
+# fixShots.com — Free Online Image Tools
 
-<!--
-**fixshots/fixshots** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+### Image Converter
+Convert images between JPG, PNG, WebP, AVIF, HEIC, BMP, TIFF, and GIF formats — free, instant, and no account needed.
 
-Here are some ideas to get you started:
+**Try it:** [fixshots.com](https://fixshots.com)
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### AI Object Removal (Coming Soon)
+Remove unwanted objects from photos with AI. Paint over anything you want gone, and our tool fills the space naturally.
+
+---
+
+### Links
+- **Website:** [fixshots.com](https://fixshots.com)  
+- **Blog:** [Image Format Guide](https://fixshots.com/blog/image-format-guide)  
+- **About & Privacy:** [About Fix Shots](https://fixshots.com/about)
+
+---
+
+*Fix Shots is a privacy-first tool. No images are stored, no accounts are needed, and no personal data is collected.*
