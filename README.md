@@ -8,6 +8,13 @@ Privacy-first image tools. No signup, no watermarks, no image storage. Every ima
 
 ## Tools
 
+### Compress to Exact Size
+Hit a hard file size limit - 20 KB, 50 KB, 100 KB, or any target from 5 KB to 5000 KB. Built for the upload forms that reject a photo for being a few kilobytes too large. Finds the highest JPEG quality that still fits, and only reduces the pixel dimensions when no quality setting is small enough.
+
+[Open tool](https://fixshots.com/tools/compress-to-size)
+
+Size-specific pages: [20 KB](https://fixshots.com/compress/20kb) · [50 KB](https://fixshots.com/compress/50kb) · [100 KB](https://fixshots.com/compress/100kb)
+
 ### One-Click Photo Fixer
 Apply a preset style to any photo in one click - Vivid, Bright, Vintage, Black and White, or Sharp. Side-by-side preview before you download.
 
@@ -16,7 +23,7 @@ Apply a preset style to any photo in one click - Vivid, Bright, Vintage, Black a
 ### Image Converter
 Convert between JPG, PNG, WebP, AVIF, BMP, TIFF, GIF and HEIC/HEIF, with a quality slider for the lossy formats. Handles the iPhone HEIC files that Windows cannot open natively.
 
-[Open tool](https://fixshots.com/tools/image-converter)
+[Open tool](https://fixshots.com/tools/image-converter) · [HEIC to JPG](https://fixshots.com/convert/heic-to-jpg)
 
 ### Photo Privacy Cleaner
 Strip GPS coordinates, camera make and model, timestamps and other EXIF metadata from a photo before you share it - and see exactly which tags were removed.
@@ -30,6 +37,8 @@ Strip GPS coordinates, camera make and model, timestamps and other EXIF metadata
 Every tool uses classical image processing via Python and Pillow. There are no AI models, no machine learning, and no third-party APIs anywhere in the pipeline.
 
 Your image is read into memory, processed, returned to you, and discarded. Nothing is written to disk, logged, or retained in any form. There is no database, so there is nothing to breach.
+
+Because every tool rebuilds the output from the image pixels alone, EXIF metadata is dropped as a side effect. A converted or compressed file does not carry your GPS coordinates into whatever you upload it to.
 
 ## Stack
 
